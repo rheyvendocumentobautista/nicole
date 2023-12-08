@@ -1,0 +1,60 @@
+.icons{
+    position: fixed;
+    left: 38%;
+    top: 65%;
+    transform: translate(-100%);
+}
+
+
+.fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    color: #ffffff;
+    background-color: #3498db; /* Add a background color */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  
+}
+
+.fa-google {
+    background: #dd4b39;
+    
+  }
+
+  .fa-instagram {
+    background: rgb(222, 57, 159);
+    
+  }
+
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+
+  .fa-youtube {
+    background: #bb0000;
+ 
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+
+  }
+ 

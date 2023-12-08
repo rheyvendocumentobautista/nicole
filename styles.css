@@ -1,0 +1,63 @@
+body{
+    /*background-color: rgb(246, 139, 9);*/
+    background-image:url(images/Body\ Background.webp) ;
+    background-size: cover;
+
+    /* Use Flexbox */
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.Menu {
+    padding: 16px;
+    font-size: 17px;
+    font-weight: bolder;
+    float: right;
+}
+
+.Menu a:hover {
+    background-color: rgb(136, 64, 224); /* Darker violet for hover */
+    color: violet; /* Text color on hover */
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.Menu a{
+    padding: 14px 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.Menu a:link{
+    text-decoration: none;
+}
+
+.MyPicture img {
+    width: 250px; /* Set the width of the image */
+    height: 250px; /* Set the height of the image */
+    border-radius: 50%; /* Make it a circle */
+    position: fixed;
+    top: 50%;
+    right: 300px; /* Adjust the right distance as needed */
+    transform: translateY(-50%);
+  }
+
+.Greeting{
+    font-size: 50px;
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translate(-100%);
+}
+
+.greetingSubtext1 {
+    display: block;
+    font-size: 50px;
+}
+
+.greetingSubtext2 {
+    font-size: 25px;
+}
+
+
+
